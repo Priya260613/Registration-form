@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background: #c9c6c5;
+	font-size: 14px;
+}
+.container{
+	background: white;
+	width:500px;
+	padding:25px;
+	margin:50px auto 0;
+	border-top:10px solid #f2a766;
+}
+.container h2{
+	font-size: 24px;
+	line-height: 24px;
+	padding:30px;
+	text-align: center;
+}
+.input-name{
+	width:90%;
+	position: relative;
+	margin:20px auto;
+}
+.lock{
+	padding:100px 11px;
+}
+.name{
+	width:45%;
+	padding:8px 0 8px 40px;
+}
+.input-name span{
+
+	margin-left:35px;
+}
+.text-name{
+	width:100%;
+	padding:8px 0 8px 40px;
+}
+.input-name i{
+	position:absolute;
+	font-size:20px;
+	border-right:1px solid #cccccc;
+	color:black;
+
+}
+.email{
+	padding: 8px;
+
+}
+.text-name:hover,.name:hover,.country:hover,.country:focus{
+background-color:whitesmoke;
+}
+.rad-button{
+	margin-right:4px;
+}
+.country{
+	display:inline-block;
+	width:100%;
+	height:28px;
+	padding:0px 10px;
+	cursor:pointer;
+}
+.check{
+	margin-right:25px;
+	position:relative;
+}
+.check::before{
+	content:"";
+	display:inline-block;
+	width:8PX;
+	height:8px;
+	vertical-align: -2px;
+	border:2px solid grey;
+}
+.button{
+	background-color: #f2a766;
+	color: white;
+	height: 40px;
+	line-height: :35px;
+	width:100%;
+	border:none;
+	font-size: 26px ;
+	cursor:pointer;
+	margin-bottom: 10px;
+
+}
+.button:hover{
+	background: red;
+}

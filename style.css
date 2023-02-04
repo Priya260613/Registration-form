@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.box{
+
+    width:50%;
+    background: floralwhite;
+    color: red;  
+    left: 40%;
+    position: absolute;
+    transform: translate(-20%,50%);
+    box-sizing: border-box;
+    padding: 10px 10px; 
+    border: 80px solid #f26676;
+
+   
+}
+.form{
+
+    width:100%;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+    color: black;
+}
+
+p{
+    color: dimgrey;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #673ab7;
+    font-size: 12px;
+}
+
+input[type="submit"]
+{
+    border: grey;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0px;  
+    
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+
+}
+
+
+a:hover
+{
+    color: red;
+}
+
+.but{
+    background-color: #c4c7cc;
+    color: white;
+    height: 40px;
+    line-height: :35px;
+    width:49%;
+    border:none;
+    font-size: 20px ;
+    cursor:pointer;
+    margin-bottom: 30px;
+
+}
+.dis{
+
+    background-color: #576f96;
+    color: white;
+    height: 40px;
+    line-height: :35px;
+    width:49%;
+    border:2px grey;
+    font-size: 20px ;
+    cursor:pointer;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
